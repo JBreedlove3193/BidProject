@@ -1,1 +1,120 @@
-aaa
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #2e2e2e;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x700/?industrial,engineering') no-repeat center center/cover;
+  padding: 100px 40px;
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.hero .cta-buttons a {
+  background: #007bff;
+  color: white;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.steps, .features, .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 1 30%;
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.testimonials {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.testimonials p {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.cta-final {
+  background: #004080;
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.cta-final a {
+  background: #ffc107;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
