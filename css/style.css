@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #0a2940;
-  --accent-color: #ffc107;
-  --secondary-color: #007bff;
-  --bg-color: #f4f6f8;
-  --text-color: #2c2c2c;
+  --primary-color: #2b2b2b;       /* Charcoal */
+  --accent-color: #ffc107;       /* Construction Yellow */
+  --secondary-color: #ffaa00;    /* Deep Amber */
+  --bg-color: #f3f3f3;           /* Light background */
+  --text-color: #1a1a1a;
   --font-main: 'Inter', sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 header {
   background-color: var(--primary-color);
   padding: 1.5rem 2rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .header-container {
@@ -63,10 +63,10 @@ nav a:hover::after {
 }
 
 .hero {
-  background: linear-gradient(to bottom right, #dde5ed, #f9fbfd);
+  background: linear-gradient(to bottom right, #ebebeb, #fdfdfd);
   padding: 100px 20px;
   text-align: center;
-  border-bottom: 5px solid #e2e6ea;
+  border-bottom: 5px solid #ddd;
 }
 
 .hero-logo {
@@ -118,7 +118,7 @@ nav a:hover::after {
 }
 
 .btn-secondary:hover {
-  background-color: #e0a800;
+  background-color: #e6a800;
 }
 
 section {
@@ -146,7 +146,7 @@ section h2 {
   background: white;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
 
@@ -156,7 +156,7 @@ section h2 {
 
 .card h3 {
   font-size: 1.3rem;
-  color: var(--secondary-color);
+  color: var(--accent-color);
   margin-bottom: 1rem;
 }
 
