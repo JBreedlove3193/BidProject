@@ -1,57 +1,70 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #2e2e2e;
-  background-color: #f9f9f9;
+  background: #f4f4f4;
+  color: #2c2c2c;
 }
 
 header {
   background-color: #1a1a1a;
   padding: 20px 40px;
-  color: white;
+}
+
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
+.header-logo {
+  height: 50px;
 }
 
 nav a {
-  margin-left: 20px;
   color: white;
+  margin-left: 20px;
   text-decoration: none;
   font-weight: bold;
 }
 
 .hero {
-  background: url('https://source.unsplash.com/1600x700/?industrial,engineering') no-repeat center center/cover;
-  padding: 100px 40px;
-  color: white;
-  text-shadow: 1px 1px 5px #000;
   text-align: center;
+  background: #eaeaea;
+  padding: 60px 20px;
 }
 
-.hero h2 {
-  font-size: 3rem;
+.hero-logo {
+  height: 120px;
   margin-bottom: 20px;
 }
 
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
 .hero p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 30px;
 }
 
-.hero .cta-buttons a {
-  background: #007bff;
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background: #004080;
   color: white;
-  padding: 15px 25px;
-  margin: 10px;
-  border-radius: 5px;
+  padding: 12px 24px;
   text-decoration: none;
+  border-radius: 4px;
   font-weight: bold;
+}
+
+.btn-secondary {
+  background: #007bff;
 }
 
 section {
@@ -60,61 +73,60 @@ section {
   margin: auto;
 }
 
-section h3 {
+section h2 {
   text-align: center;
-  margin-bottom: 30px;
   font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-.steps, .features, .projects {
+.card-group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .card {
-  flex: 1 1 30%;
   background: white;
   padding: 20px;
-  margin: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1 1 30%;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card h4 {
+.card h3 {
   margin-top: 0;
 }
 
 .testimonials {
-  background-color: #f1f1f1;
+  background: #f0f0f0;
   text-align: center;
-  padding: 60px 40px;
 }
 
-.testimonials p {
+.testimonials blockquote {
   font-style: italic;
-  font-size: 1.2rem;
+  margin: 20px auto;
+  max-width: 800px;
 }
 
 .cta-final {
   background: #004080;
   color: white;
-  padding: 60px 40px;
   text-align: center;
+  padding: 60px 20px;
 }
 
-.cta-final a {
+.cta-final a.btn {
   background: #ffc107;
   color: black;
-  padding: 15px 25px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 footer {
-  background: #222;
+  background: #1a1a1a;
   color: #ccc;
   text-align: center;
   padding: 20px;
+  font-size: 0.9rem;
 }
