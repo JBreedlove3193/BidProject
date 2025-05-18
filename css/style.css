@@ -116,6 +116,34 @@ nav a:hover::after {
   background-color: var(--accent-color);
   color: #000;
 }
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-auth {
+  background: #004080;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.btn-auth:hover {
+  background: #0060c0;
+}
+
+.btn-auth.btn-secondary {
+  background: #ffc107;
+  color: black;
+}
+
+.btn-auth.btn-secondary:hover {
+  background: #e6a800;
+}
 
 .btn-secondary:hover {
   background-color: #e6a800;
