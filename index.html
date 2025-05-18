@@ -3,108 +3,208 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BidProject | Industrial Projects, Expertly Delivered</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>BidProject | Industrial Contracting Marketplace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #2e2e2e;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px 40px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x700/?industrial,engineering') no-repeat center center/cover;
+      padding: 100px 40px;
+      color: white;
+      text-shadow: 1px 1px 5px #000;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+    }
+    .hero .cta-buttons a {
+      background: #007bff;
+      color: white;
+      padding: 15px 25px;
+      margin: 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section h3 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+    .steps, .features, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .card {
+      flex: 1 1 30%;
+      background: white;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .card h4 {
+      margin-top: 0;
+    }
+    .testimonials {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 60px 40px;
+    }
+    .testimonials p {
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+    .cta-final {
+      background: #004080;
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .cta-final a {
+      background: #ffc107;
+      color: black;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <div class="container">
-      <img src="logo.png" alt="BidProject Logo" class="logo"/>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Compliance</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>BidProject</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Compliance</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+    </nav>
   </header>
 
   <section class="hero">
-    <div class="container">
-      <h1>Your Industrial Projects, Expertly Delivered</h1>
-      <p>Connect with top-tier contractors for every industrial need.</p>
-      <a href="#" class="btn">Post a Project</a>
-      <a href="#" class="btn-outline">Join as a Contractor</a>
+    <h2>Your Industrial Projects, Expertly Delivered</h2>
+    <p>Connect with top-tier contractors for maintenance, installation, and project delivery—faster and more affordably than ever.</p>
+    <div class="cta-buttons">
+      <a href="#">Post a Project</a>
+      <a href="#">Join as Contractor</a>
     </div>
   </section>
 
-  <section class="how-it-works">
-    <div class="container">
-      <h2>How It Works</h2>
-      <div class="steps">
-        <div class="step">
-          <h3>1. Post Your Project</h3>
-          <p>List detailed requirements and scope of work in minutes.</p>
-        </div>
-        <div class="step">
-          <h3>2. Receive Bids</h3>
-          <p>Get competitive proposals from verified industrial contractors.</p>
-        </div>
-        <div class="step">
-          <h3>3. Select the Best Fit</h3>
-          <p>Review bids, verify credentials, and choose the right team.</p>
-        </div>
+  <section>
+    <h3>How It Works</h3>
+    <div class="steps">
+      <div class="card">
+        <h4>1. Post Your Project</h4>
+        <p>Submit your project details and specifications—big or small. Our system makes it simple and efficient.</p>
+      </div>
+      <div class="card">
+        <h4>2. Receive Competitive Bids</h4>
+        <p>Qualified contractors will review and bid on your job. You’ll get competitive proposals fast.</p>
+      </div>
+      <div class="card">
+        <h4>3. Select the Best Fit</h4>
+        <p>Review contractor credentials, past work, and pricing before choosing the best partner for the task.</p>
       </div>
     </div>
   </section>
 
-  <section class="features">
-    <div class="container">
-      <h2>Platform Features</h2>
-      <ul>
-        <li><strong>Verified Contractors:</strong> Every contractor is vetted for safety and qualifications.</li>
-        <li><strong>Project Management Tools:</strong> Built-in communication and milestone tracking.</li>
-        <li><strong>Secure Payments:</strong> Escrow and release options ensure safe transactions.</li>
-        <li><strong>Industrial Expertise:</strong> Designed for heavy-duty, regulated project scopes.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="trust">
-    <div class="container">
-      <h2>Trusted by Industry Leaders</h2>
-      <div class="logos">
-        <img src="partner1.png" alt="Partner 1"/>
-        <img src="partner2.png" alt="Partner 2"/>
-        <img src="partner3.png" alt="Partner 3"/>
+  <section>
+    <h3>Why BidProject?</h3>
+    <div class="features">
+      <div class="card">
+        <h4>Verified Contractors</h4>
+        <p>Every contractor on our platform is vetted for industrial experience, safety compliance, and work quality.</p>
       </div>
-      <blockquote>
-        "BidProject has transformed how we execute major maintenance—faster, cheaper, and better aligned with our compliance goals."
-        <cite>– Operations Director, MidWest Chemicals</cite>
-      </blockquote>
-    </div>
-  </section>
-
-  <section class="featured-projects">
-    <div class="container">
-      <h2>Featured Projects</h2>
-      <div class="projects">
-        <div class="project">
-          <h3>Plant Overhaul in Texas</h3>
-          <p>Complete mechanical and electrical upgrade finished 2 weeks ahead of schedule.</p>
-        </div>
-        <div class="project">
-          <h3>Equipment Install – Oregon</h3>
-          <p>Installed high-efficiency units at a biofuel facility with zero downtime.</p>
-        </div>
+      <div class="card">
+        <h4>Built-in Project Tools</h4>
+        <p>Track milestones, communicate directly, and manage all your project tasks in one place.</p>
+      </div>
+      <div class="card">
+        <h4>Secure Payments</h4>
+        <p>We provide escrow and milestone payment features to ensure fair and timely transactions.</p>
+      </div>
+      <div class="card">
+        <h4>Specialized in Industry</h4>
+        <p>We focus solely on industrial contracting—giving your project the serious attention it deserves.</p>
       </div>
     </div>
   </section>
 
-  <section class="cta">
-    <div class="container">
-      <h2>Ready to Transform Your Industrial Projects?</h2>
-      <a href="#" class="btn">Get Started</a>
+  <section class="testimonials">
+    <h3>Trusted by Industry Leaders</h3>
+    <p>"BidProject has transformed how we handle operations and maintenance needs. We now get reliable work done faster and cheaper." – J. C., Plant Manager</p>
+    <p>"I landed three contracts my first month on BidProject. It’s the best thing I’ve used in 15 years as a contractor." – B. H., Millwright</p>
+  </section>
+
+  <section>
+    <h3>Featured Projects</h3>
+    <div class="projects">
+      <div class="card">
+        <h4>Plant Overhaul – Texas</h4>
+        <p>Rebuilt material handling systems and re-certified process controls. Completed in under 60 days.</p>
+      </div>
+      <div class="card">
+        <h4>Mechanical Install – PNW</h4>
+        <p>Installed high-capacity shredding and screening line for a renewable energy facility.</p>
+      </div>
+      <div class="card">
+        <h4>Turnkey Maintenance</h4>
+        <p>Outsourced O&M for a waste-to-energy plant. Cut annual costs by 12% while improving uptime.</p>
+      </div>
     </div>
+  </section>
+
+  <section class="cta-final">
+    <h3>Ready to Transform Your Industrial Projects?</h3>
+    <p>Post your first project or join as a verified contractor today.</p>
+    <a href="#">Get Started</a>
   </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 BidProject. All rights reserved.</p>
-    </div>
+    &copy; 2025 BidProject. All Rights Reserved. | info@bidproject.com
   </footer>
+
 </body>
 </html>
