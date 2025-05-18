@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f7f8fa;
+  color: #2e2e2e;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px 40px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+.hero {
+  background: linear-gradient(to right, #e2e6ea, #f7f8fa);
+  text-align: center;
+  padding: 80px 20px 60px;
+  border-bottom: 4px solid #ddd;
+}
+
+.hero-logo {
+  height: 140px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #004080;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background: #004080;
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #002f60;
+}
+
+.btn-secondary {
+  background: #007bff;
+}
+
+.btn-secondary:hover {
+  background: #005bb5;
+}
+
+section {
+  padding: 60px 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  flex: 1 1 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #004080;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+.cta-final {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-final a.btn {
+  background: #ffc107;
+  color: black;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+footer {
+  background: #1a1a1a;
+  color: #ccc;
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+}
